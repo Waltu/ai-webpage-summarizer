@@ -1,0 +1,16 @@
+{
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "trailingComma": "none",
+  "semi": false,
+  "quoteProps": "as-needed",
+  "importOrder": [
+    "^fp-ts/(.*)$",
+    "^[./]",
+    "^[$]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "printWidth": 140
+}
