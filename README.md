@@ -15,10 +15,10 @@ string-strip-html: A library to strip HTML tags and other content from strings.
 
 This project uses the following environment variables for configuration. Make sure to set these variables before running the project.
 
-`OPENAI_API_KEY`: The API key for accessing the OpenAI API. You can obtain this key from the OpenAI Dashboard.
-`LOG_LEVEL`: The logging level for the application. Valid values are: trace, debug, info, warn, error, fatal, and silent. Default value is info.
-`OPENAI_MAX_TOKENS`: The maximum number of tokens the OpenAI API should generate in response to a prompt. Default value is recommended based on the model used.
-`OPENAI_TEMPERATURE`: The sampling temperature for the OpenAI API. Higher values (e.g., 1) produce more random output, while lower values (e.g., 0) produce more deterministic output. Default value is 0.7.
+`OPENAI_API_KEY`: The API key for accessing the OpenAI API. You can obtain this key from the OpenAI Dashboard. \
+`LOG_LEVEL`: The logging level for the application. Valid values are: trace, debug, info, warn, error, fatal, and silent. Default value is info. \
+`OPENAI_MAX_TOKENS`: The maximum number of tokens the OpenAI API should generate in response to a prompt. Default value is recommended based on the model used. \
+`OPENAI_TEMPERATURE`: The sampling temperature for the OpenAI API. Higher values (e.g., 1) produce more random output, while lower values (e.g., 0) produce more deterministic output. Default value is 0.7. \
 `URL`: The URL of the article you want to summarize. This variable should be passed when calling the getSummaryByURL function. Use this environment variable only in CLI applications
 
 ## Usage
