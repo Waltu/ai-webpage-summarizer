@@ -4,11 +4,11 @@ This project is a URL summary generator that utilizes the OpenAI API to create a
 
 ## Dependencies
 
-@mozilla/readability: A library to extract readable content from HTML.
-gpt-3-encoder: A library to count tokens in a GPT-3 prompt.
-jsdom: A JavaScript implementation of the DOM and HTML standards.
-openai: The official OpenAI API client library for JavaScript.
-pino: A fast and low-overhead logging library for Node.js.
+@mozilla/readability: A library to extract readable content from HTML. \
+gpt-3-encoder: A library to count tokens in a GPT-3 prompt. \
+jsdom: A JavaScript implementation of the DOM and HTML standards. \
+openai: The official OpenAI API client library for JavaScript. \
+pino: A fast and low-overhead logging library for Node.js. \
 string-strip-html: A library to strip HTML tags and other content from strings.
 
 ## Environment Variables
