@@ -28,7 +28,6 @@ The main functionality is provided by the getSummaryByURL function. It takes a U
 ## Example
 
 ```javascript
-Copy code
 import { getSummaryByURL } from 'ai-summarize-url'
 
 const summary = 'https://www.nationalgeographic.com/environment/article/seaweed-blob-great-atlantic-sargassum-belt-beach-threat'
@@ -38,3 +37,8 @@ const summary = await getSummaryByURL(url)
 //"The Great Atlantic Sargassum Belt is a 5,000 mile long mass of floating seaweed that is heading towards the tip of Florida. It provides a home and source of food for passing fish and sea turtles, but in the past decade, it has become a nuisance capable of causing serious damage due to its stench and ability to smother coral reefs and mangroves. It is believed to have been caused by fertilizers from the Amazon River leaking into the ocean and giving the seaweed a boost. Removing it can cost tens of millions of dollars and there is not an easy fix for getting rid of it."
 console.log(summary)
 ```
+
+## Things to do
+
+-[] Publish this application to to NPM
+-[] Implement a basic integration tests for the interface
