@@ -40,5 +40,5 @@ console.log(summary)
 
 ## Things to do
 
--[] Publish this application to to NPM
--[] Implement a basic integration tests for the interface
+- [ ] Publish this application to to NPM
+- [ ] Implement a basic integration tests for the interface
